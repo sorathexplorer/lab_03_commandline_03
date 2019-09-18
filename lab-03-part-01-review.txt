@@ -16,15 +16,24 @@ This lab will review downloading and uncompressing files, and it will get us set
 Write the command that you used to do this below:
 ----------
 
-
+ cd ./
 
 ==========
 2. Prove that you're in your home directory.
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
-
+ ls
+1003			Applications		Public
+AMALogger20190109.log	Desktop			QLData
+AMALogger20190308.log	Documents		Things
+AMALogger20190829.log	Downloads		ipe.properties
+AMALogger20190903.log	Library			isus
+AMALogger20190910.log	MPLABXProjects		mtec1002-lab-03
+AMALogger20190912.log	MTEC			pymel.log
+AMALogger20190917.log	Movies			xgen
+Adlm			Music
+Adobe			Pictures
 
 ==========
 3. Are there any directories or files in your directory that have the word mtec1002 in it?
@@ -32,14 +41,12 @@ Write the command that you used to do this - as well as its output - below :
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
 
-
-
+ student$ cd mtec1002 (Tab Button)
 ==========
 4. If there are directories or files in your home directory that have the word mtec1002 in them, list them below (otherwise skip this step):
 ----------
 
-
-
+mtec1002-lab-03
 ==========
 5. Delete these directories from your home folder by using this command:
 
@@ -65,14 +72,15 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-
-
+curl https://github.com/levylorenzo/mtec1003_lab_03_commandline_03
 
 ==========
 7.  Uncompress the file that you just downloaded.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+
+curl -o  mtec1002-lab-03/
 
 
 
@@ -89,7 +97,7 @@ Otherwise...
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
-
+cd ./
 
 ==========
 9.  What directories are in the mtec1002-lab-03 folder?
@@ -97,6 +105,9 @@ Write the command(s) that you used to do this - as well as its output - below:
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
 
+v120-ent-011:~ student$ cd mtec1002-lab-03/
+v120-ent-011:mtec1002-lab-03 student$ ls
+books	logs	web
 
 
 ==========
